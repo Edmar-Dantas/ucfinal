@@ -17,6 +17,7 @@
     <!--Campo para busca-->
     <div class="container">
         <form class="mt-4" action="/search">
+            @csrf
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Digite sua pesquisa" name="q">
                 <button type="submit" class="btn btn-primary">Buscar</button>
